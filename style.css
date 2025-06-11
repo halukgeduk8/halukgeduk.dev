@@ -16,29 +16,40 @@ body {
   padding: 2rem;
 }
 
-header {
-  text-align: center;
-  margin-bottom: 3rem;
+nav {
+  background-color: var(--bg);
+  border-bottom: 1px solid var(--muted);
+  padding: 1rem 0;
 }
 
-header h1 {
-  font-size: 2.5rem;
-  color: var(--accent);
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-header p {
-  color: var(--muted);
+nav li {
+  margin: 0 1.5rem;
 }
 
-h2 {
-  color: var(--muted);
-  border-bottom: 2px solid var(--accent);
-  padding-bottom: 0.3rem;
-}
-
-a {
+nav a {
   color: var(--link);
   text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2.5rem 0;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1.25rem;
 }
 
 footer {
