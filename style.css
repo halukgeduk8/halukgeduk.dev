@@ -1,16 +1,17 @@
 /* Stoic Theme - style.css */
 :root {
-  --bg: #FAF9F6;
-  --text: #3B3B3B;
+  --bg: #F4F1EB;
+  --text: #2E2E2E;
   --accent: #D4AF37;
   --muted: #64748B;
   --link: #CC5500;
+  --panel: #E6E1D9;
 }
 
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: var(--bg);
+  background-color: var(--panel);
   color: var(--text);
   line-height: 1.6;
   padding: 2rem;
@@ -58,4 +59,5 @@ footer {
   font-size: 0.9rem;
   color: var(--muted);
 }
+
 
