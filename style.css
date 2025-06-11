@@ -1,58 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+/* Stoic Theme - style.css */
+:root {
+  --bg: #FAF9F6;
+  --text: #3B3B3B;
+  --accent: #D4AF37;
+  --muted: #64748B;
+  --link: #CC5500;
+}
 
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #f5f5f5;
-  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 2rem;
 }
 
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  background-color: #1e1e1e;
-  padding-top: 40px;
-  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  margin: 30px 0;
+header {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
-nav a {
-  color: white;
+header h1 {
+  font-size: 2.5rem;
+  color: var(--accent);
+}
+
+header p {
+  color: var(--muted);
+}
+
+h2 {
+  color: var(--muted);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.3rem;
+}
+
+a {
+  color: var(--link);
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  transition: color 0.3s ease;
 }
 
-nav a:hover {
-  color: #00ccff;
-}
-
-main {
-  margin-left: 220px;
-  padding: 60px;
-}
-
-h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 18px;
-  color: #444;
+footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
 }
 
